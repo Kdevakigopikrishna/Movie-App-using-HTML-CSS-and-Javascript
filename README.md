@@ -1,83 +1,54 @@
-Movie App using HTML, CSS, and JavaScript
-Project Description
+# Movie App using HTML, CSS, and JavaScript
 
-The Movie App is a simple web application developed using HTML, CSS, and JavaScript. This application displays trending movies and allows users to search for movies easily.
+## Project Description
 
-The movie data is fetched from the The Movie Database (TMDB) API and displayed dynamically on the webpage using JavaScript.
+The Movie App is a simple web application developed using HTML, CSS, and JavaScript. This application displays trending movies and allows users to search for movies.
+
+The movie data is fetched from The Movie Database (TMDB) API and displayed dynamically on the webpage using JavaScript.
 
 Each movie card in the application shows important movie information such as:
 
-poster_path – Displays the movie poster image
+* **poster_path** – Displays the movie poster image
+* **title** – Shows the name of the movie
+* **vote_average** – Displays the movie rating
+* **overview** – Provides a short description of the movie
 
-title – Shows the name of the movie
+When the webpage loads, the application automatically fetches trending movies from the TMDB API and displays them on the screen. Users can also search for any movie using the search bar at the top of the page.
 
-vote_average – Displays the movie rating
+## Features
 
-overview – Provides a short description of the movie
+* Display trending movies
+* Search movies by title
+* Show movie poster, title, rating, and overview
+* Dynamic movie data loading using API
 
-When the webpage loads, the application automatically fetches trending movies from the TMDB API and displays them in a grid layout. Users can also search for any movie using the search bar provided at the top of the page.
+## Technologies Used
 
-Features
+* HTML
+* CSS
+* JavaScript
 
-Display trending movies
+## API Used
 
-Search movies by title
+The project uses The Movie Database (TMDB) API to fetch movie data such as posters, titles, ratings, and descriptions.
 
-Show movie poster, title, rating, and overview
+## Project Structure
 
-Dynamic movie data loading using API
-
-Responsive movie cards with hover overview effect
-
-Technologies Used
-
-HTML – For creating the structure of the webpage
-
-CSS – For styling and layout design
-
-JavaScript – For fetching API data and adding functionality
-
-API Used
-
-This project uses the The Movie Database (TMDB) API to fetch movie data.
-
-Example API endpoints used:
-
-Discover Movies API
-
-Search Movies API
-
-Project Structure
 Movie-App
 │
-├── index.html     # Main HTML structure
-├── style.css      # Styling of the webpage
-├── script.js      # JavaScript logic and API calls
-└── README.md      # Project documentation
-How It Works
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 
-The webpage loads and JavaScript calls the TMDB API.
+## How It Works
 
-The API returns movie data in JSON format.
+1. The webpage loads and JavaScript calls the TMDB API.
+2. The API returns movie data.
+3. JavaScript processes the data.
+4. Movie cards are created dynamically and displayed on the webpage.
+5. Users can search for movies using the search bar.
 
-JavaScript processes the data.
+## Conclusion
 
-Movie cards are created dynamically.
-
-The user can search for movies using the search bar.
-
-Learning Outcomes
-
-This project helps beginners understand:
-
-API integration in JavaScript
-
-Fetching and displaying dynamic data
-
-DOM manipulation
-
-Basic front-end web development concepts
-
-Conclusion
-
-The Movie App demonstrates how to build a dynamic web application using HTML, CSS, and JavaScript by integrating an external movie database API to fetch and display real-time movie information.
+This project demonstrates how to build a dynamic web application using HTML, CSS, and JavaScript by integrating an external API to fetch and display movie information.
